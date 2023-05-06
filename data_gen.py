@@ -1,10 +1,32 @@
+"""
+This is essentially a script designed to generate the data
+that I am going to use for the analysis of the data.
+
+The goal is to simplify the process by removing the amount
+of querying that I have to do to generate these bits of data
+and I can simply load it in using the specific file tree structure.
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly as p
 import os
 
 
-def initial_preprocessing(file_location: str):
+def initial_preprocessing(file_location: str) -> pd.DataFrame:
+    """ This initial preprocessing step to the whole dataset
+        will make it easier to manipulate the data.
+        
+        I did notice in my analysis in the Jupyter Notebook
+        that there were columns in the data that contained
+        almost all NULL/NAN values so those are the ones
+        that I drop.
+
+    Args:
+        file_location (str): The location of the data.
+
+    Returns:
+        pd.DataFrame: The cleaned data.
+    """    
     full_dataset = pd.read_csv(file_location)
     # print(full_dataset.head())
 
@@ -30,6 +52,18 @@ def initial_preprocessing(file_location: str):
 def generate_dataset_config(
     data: pd.DataFrame, file_location: str = "./dataset_configuration.txt"
 ) -> None:
+    """ Generates the dataset configuration text file that details some
+        of the information given and helps a bit with navigating the large
+        dataset file.
+        
+        If the column's data type is an "object" I record the unique values.
+        Otherwise, I use pandas' describe method to give the basic statistics
+        one the data, assuming it is quantitative information.
+
+    Args:
+        data (pd.DataFrame): The data for generating the dataset_config file.
+        file_location (str, optional): The file location. Defaults to "./dataset_configuration.txt".
+    """    
     # Create a file that details the configuration of the data.
     with open(file_location, "w", encoding="utf-8") as file:       # Output this to a file so that 
         for col, dtype in zip(data, data.dtypes):
