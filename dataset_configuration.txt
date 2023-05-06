@@ -1,0 +1,464 @@
+YearStart		int64
+count    1.185676e+06
+mean     2.015103e+03
+std      3.320259e+00
+min      2.001000e+03
+25%      2.013000e+03
+50%      2.015000e+03
+75%      2.018000e+03
+max      2.021000e+03
+Name: YearStart, dtype: float64
+
+YearEnd		int64
+count    1.185676e+06
+mean     2.015643e+03
+std      3.001197e+00
+min      2.001000e+03
+25%      2.013000e+03
+50%      2.016000e+03
+75%      2.018000e+03
+max      2.021000e+03
+Name: YearEnd, dtype: float64
+
+LocationAbbr		object
+['AR' 'CO' 'DC' 'GA' 'MI' 'MT' 'OR' 'PR' 'WI' 'AL' 'ID' 'IL' 'KS' 'LA'
+ 'MA' 'MD' 'MN' 'MS' 'NC' 'NM' 'TX' 'NY' 'IN' 'NV' 'SC' 'VA' 'IA' 'UT'
+ 'WY' 'AK' 'CA' 'OH' 'US' 'HI' 'WA' 'SD' 'DE' 'KY' 'ND' 'RI' 'VI' 'VT'
+ 'AZ' 'FL' 'NE' 'OK' 'GU' 'NJ' 'MO' 'ME' 'CT' 'NH' 'TN' 'PA' 'WV']
+
+LocationDesc		object
+['Arkansas' 'Colorado' 'District of Columbia' 'Georgia' 'Michigan'
+ 'Montana' 'Oregon' 'Puerto Rico' 'Wisconsin' 'Alabama' 'Idaho' 'Illinois'
+ 'Kansas' 'Louisiana' 'Massachusetts' 'Maryland' 'Minnesota' 'Mississippi'
+ 'North Carolina' 'New Mexico' 'Texas' 'New York' 'Indiana' 'Nevada'
+ 'South Carolina' 'Virginia' 'Iowa' 'Utah' 'Wyoming' 'Alaska' 'California'
+ 'Ohio' 'United States' 'Hawaii' 'Washington' 'South Dakota' 'Delaware'
+ 'Kentucky' 'North Dakota' 'Rhode Island' 'Virgin Islands' 'Vermont'
+ 'Arizona' 'Florida' 'Nebraska' 'Oklahoma' 'Guam' 'New Jersey' 'Missouri'
+ 'Maine' 'Connecticut' 'New Hampshire' 'Tennessee' 'Pennsylvania'
+ 'West Virginia']
+
+DataSource		object
+['SEDD; SID' 'NVSS' 'Death Certificate'
+ 'Statewide central cancer registries' 'CMS Part A Claims Data' 'PRAMS'
+ 'ACS 1-Year Estimates' 'STATE' 'YRBSS' 'Legal Research' 'BRFSS' 'APIS'
+ 'AEDS' 'USRDS' 'Birth Certificate, NVSS' 'CDC Breastfeeding Report Card'
+ 'CDC School Health Profiles' 'National Immunization Survey' 'mPINC'
+ "CDC Children's Food Environment State Indicator Report"
+ "USDA National Farmers' Market Directory" 'InfoUSA; USDA' 'HRSA, UDS'
+ 'ASHW' 'NVSS, Mortality' 'CMS CCW' 'NSCH' 'Current Population Survey'
+ 'WFRS' 'ACS 5-Year Estimates' 'ANRF']
+
+Topic		object
+['Asthma' 'Cancer' 'Chronic Kidney Disease'
+ 'Chronic Obstructive Pulmonary Disease' 'Cardiovascular Disease'
+ 'Diabetes' 'Disability' 'Reproductive Health' 'Tobacco' 'Alcohol'
+ 'Arthritis' 'Nutrition, Physical Activity, and Weight Status'
+ 'Mental Health' 'Older Adults' 'Oral Health' 'Overarching Conditions'
+ 'Immunization']
+
+Question		object
+['Hospitalizations for asthma' 'Asthma mortality rate'
+ 'Cancer of the oral cavity and pharynx, mortality'
+ 'Cancer of the prostate, mortality'
+ 'Invasive cancer (all sites combined), mortality'
+ 'Cancer of the female breast, mortality'
+ 'Cancer of the female cervix, mortality'
+ 'Cancer of the colon and rectum (colorectal), mortality'
+ 'Cancer of the lung and bronchus, mortality'
+ 'Invasive melanoma, incidence' 'Melanoma, mortality'
+ 'Mortality with end-stage renal disease'
+ 'Hospitalization for chronic obstructive pulmonary disease as first-listed diagnosis'
+ 'Hospitalization for chronic obstructive pulmonary disease as any diagnosis'
+ 'Hospitalization for chronic obstructive pulmonary disease as first-listed diagnosis among Medicare-eligible persons aged >= 65 years'
+ 'Hospitalization for chronic obstructive pulmonary disease as any diagnosis among Medicare-eligible persons aged >= 65 years'
+ 'Mortality from heart failure'
+ 'Hospitalization for heart failure among Medicare-eligible persons aged >= 65 years'
+ 'Hospitalization for stroke' 'Pre-pregnancy hypertension'
+ 'Mortality due to diabetes reported as any listed cause of death'
+ 'Mortality with diabetic ketoacidosis reported as any listed cause of death'
+ 'Amputation of a lower extremity attributable to diabetes'
+ 'Hospitalization with diabetes as a listed diagnosis'
+ 'Disability among adults aged >= 65 years' 'Folic acid supplementation'
+ 'Sale of cigarette packs' 'Chronic liver disease mortality'
+ 'Alcohol use before pregnancy' 'Alcohol use among youth'
+ 'Local authority to regulate alcohol outlet density'
+ 'Binge drinking prevalence among youth'
+ 'Emergency department visit rate for asthma'
+ 'Adults aged >= 18 years with arthritis who have taken a class to learn how to manage arthritis symptoms'
+ 'Amount of alcohol excise tax by beverage type (beer)'
+ 'Amount of alcohol excise tax by beverage type (wine)'
+ 'Amount of alcohol excise tax by beverage type (distilled spirits)'
+ 'Commercial host (dram shop) liability laws'
+ 'Per capita alcohol consumption among persons aged >= 14 years'
+ 'Invasive cancer of the oral cavity or pharynx, incidence'
+ 'Invasive cancer of the prostate, incidence'
+ 'Invasive cancer (all sites combined), incidence'
+ 'Invasive cancer of the female breast, incidence'
+ 'Invasive cancer of the cervix, incidence'
+ 'Cancer of the colon and rectum (colorectal), incidence'
+ 'Cancer of the lung and bronchus, incidence'
+ 'Incidence of treated end-stage renal disease'
+ 'Mortality with chronic obstructive pulmonary disease as underlying cause among adults aged >= 45 years'
+ 'Incidence of treated end-stage renal disease attributed to diabetes'
+ 'Mortality with chronic obstructive pulmonary disease as underlying or contributing cause among adults aged >= 45 years'
+ 'Mortality from total cardiovascular diseases'
+ 'Mortality from diseases of the heart'
+ 'Mortality from coronary heart disease'
+ 'Emergency department visit rate for chronic obstructive pulmonary disease as first-listed diagnosis'
+ 'Emergency department visit rate for chronic obstructive pulmonary disease as any diagnosis'
+ 'Mortality from cerebrovascular disease (stroke)'
+ 'Prevalence of pre-pregnancy diabetes'
+ 'Hospitalization for acute myocardial infarction'
+ 'Prevalence of gestational diabetes' 'Postpartum checkup'
+ 'Amount of tobacco product excise tax'
+ 'Cigarette smoking before pregnancy'
+ 'Current cigarette smoking among youth'
+ 'Participation in daily school physical education classes among high school students'
+ 'Live births occurring at Baby Friendly Facilities'
+ 'Soda consumption among high school students'
+ 'Meeting aerobic physical activity guidelines among high school students'
+ 'Secondary schools that allow community-sponsored use of physical activity facilities by youth outside of normal school hours'
+ 'Infants breastfed at 6 months'
+ 'Receiving formula supplementation within the first 2 days of life among breastfed infants'
+ 'Mean maternity practices in infant nutrition care (mPINC) score'
+ 'Secondary schools that allow students to purchase soda or fruit drinks'
+ 'Secondary schools that offer less healthy foods as competitive foods'
+ 'Presence of regulations pertaining to screen time in early care and education settings'
+ 'Postpartum depressive symptoms'
+ 'Secondary schools that allow students to purchase sports drinks'
+ 'State child care regulation supports onsite breastfeeding'
+ 'Computer use among high school students'
+ 'Television viewing among high school students'
+ 'Median daily frequency of vegetable consumption among high school students'
+ 'Obesity among high school students'
+ 'Hospitalization for hip fracture among Medicare-eligible persons aged >= 65 years'
+ 'Presence of regulations pertaining to avoiding sugar in early care and education settings'
+ 'Overweight or obesity among high school students'
+ 'Median daily frequency of fruit consumption among high school students'
+ 'Number of farmers markets per 100,000 residents'
+ 'Healthy weight among high school students'
+ 'Census tracts with healthier food retailers within � mile of boundary'
+ 'Farmers markets that accept Women and Infant Children (WIC) farmers market nutrition program coupons'
+ 'Oral health services at Federally Qualified Health Centers'
+ 'Presence of regulations pertaining to serving fruit in early care and education settings'
+ 'Presence of regulations pertaining to serving vegetables in early care and education settings'
+ 'Farmers markets that accept Supplemental Nutrition Assistance Program (SNAP) benefits'
+ 'Life expectancy at birth'
+ 'Premature mortality among adults aged 45-64 years' 'Poverty'
+ 'Preventive dental care before pregnancy'
+ 'Life expectancy at age 65 years'
+ 'Prevalence of 2 or more chronic conditions among Medicare-enrolled persons aged >= 65 years'
+ 'High school completion among adults aged 18-24 years'
+ 'Dental visits among children and adolescents aged 1-17 years'
+ 'High school completion among women aged 18-44 years'
+ 'Health insurance coverage before pregnancy'
+ 'Poverty among women aged 18-44 years'
+ 'Preventive dental visits among children and adolescents aged 1-17 years'
+ 'Population served by community water systems that receive fluoridated drinking water'
+ 'Gini Index of income inequality'
+ 'States that allow stronger local tobacco control and prevention laws'
+ 'Current smokeless tobacco use among youth'
+ 'States with strong polices that require retail licenses to sell tobacco products'
+ 'Proportion of the population protected by a comprehensive smoke-free policy prohibiting smoking in all indoor areas of workplaces and public places, including restaurants and bars'
+ 'Secondary schools that have a comprehensive tobacco-free school policy in place'
+ 'Percent tobacco revenue to fund at CDC recommended level'
+ 'Asthma prevalence among women aged 18-44 years'
+ 'Heavy drinking among adults aged >= 18 years'
+ 'Diabetes prevalence among women aged 18-44 years'
+ 'Current smoking among adults aged >= 18 years'
+ 'All teeth lost among adults aged >= 65 years'
+ 'Arthritis among adults aged >= 18 years'
+ 'No tooth loss among adults aged 18-64 years'
+ 'Current asthma prevalence among adults aged >= 18 years'
+ 'Mammography use among women aged 50-74 years'
+ 'Prevalence of chronic kidney disease among adults aged >= 18 years'
+ 'Cholesterol screening among adults aged >= 18 years'
+ 'Foot examination among adults aged >= 18 years with diagnosed diabetes'
+ 'Arthritis among adults aged >= 18 years who have diabetes'
+ 'Quit attempts in the past year among current smokers'
+ 'Dilated eye examination among adults aged >= 18 years with diagnosed diabetes'
+ 'Recent mentally unhealthy days among adults aged >= 18 years'
+ 'Heavy drinking among women aged 18-44 years'
+ 'Arthritis among adults aged >= 18 years who are obese'
+ 'Binge drinking intensity among adults aged >= 18 years who binge drink'
+ 'Arthritis among adults aged >= 18 years who have heart disease'
+ 'Overweight or obesity among adults aged >= 18 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged 18-64 years with diagnosed diabetes'
+ 'Current health care coverage among women aged 18-44 years'
+ 'Current smokeless tobacco use among adults aged >= 18 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged >= 65 years with a history of coronary heart disease'
+ 'Influenza vaccination among noninstitutionalized adults aged 18-64 years with a history of coronary heart disease or stroke'
+ 'Awareness of high blood pressure among women aged 18-44 years'
+ 'Recent activity limitation among adults aged >= 18 years'
+ 'Self-rated health status among women aged 18-44 years'
+ 'Current lack of health insurance among adults aged 18-64 years'
+ 'At least 14 recent mentally unhealthy days among women aged 18-44 years'
+ 'Obesity among adults aged >= 18 years'
+ 'Binge drinking frequency among adults aged >= 18 years who binge drink'
+ 'High cholesterol prevalence among adults aged >= 18 years'
+ 'Taking medicine for high blood pressure control among adults aged >= 18 years with high blood pressure'
+ 'Visits to dentist or dental clinic among adults aged >= 18 years'
+ 'Physical inactivity among adults aged >= 18 years with arthritis'
+ 'Adults with diagnosed diabetes aged >= 18 years who have taken a diabetes self-management course'
+ 'Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years'
+ 'Prevalence of chronic obstructive pulmonary disease among adults >= 18'
+ 'Prevalence of chronic obstructive pulmonary disease among adults >= 45 years'
+ 'Work limitation due to arthritis among adults aged 18-64 years who have doctor-diagnosed arthritis'
+ 'Median daily frequency of vegetable consumption among adults aged >= 18 years'
+ 'Median daily frequency of fruit consumption among adults aged >= 18 years'
+ 'Prevalence of current smoking among adults >= 45 years with diagnosed chronic obstructive pulmonary disease'
+ 'Influenza vaccination among noninstitutionalized adults aged >= 18 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged >= 65 years who smoke'
+ 'Prevalence of current smoking among adults >= 18 with diagnosed chronic obstructive pulmonary disease'
+ 'Prevalence of depressive disorders among adults aged >= 18 years with diagnosed diabetes'
+ 'Glycosylated hemoglobin measurement among adults aged >= 18 years with diagnosed diabetes'
+ 'Influenza vaccination among noninstitutionalized adults aged >= 65 years with diagnosed diabetes'
+ 'No leisure-time physical activity among adults aged >= 18 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged 18-64 years with a history of coronary heart disease'
+ 'Awareness of high blood pressure among adults aged >= 18 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged >= 65 years with diagnosed diabetes'
+ 'Influenza vaccination among noninstitutionalized adults aged >= 65 years with a history of coronary heart disease or stroke'
+ 'Binge drinking prevalence among adults aged >= 18 years'
+ 'Meeting aerobic physical activity guidelines for additional and more extensive health benefits among adults aged >= 18 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged >= 45 years with chronic obstructive pulmonary disease'
+ 'Six or more teeth lost among adults aged >= 65 years'
+ 'Timeliness of routine health care checkup among women aged 18-44 years'
+ 'Fair or poor health among adults aged >= 18 years with arthritis'
+ 'Prevalence of high cholesterol among adults aged >= 18 years with diagnosed diabetes'
+ 'Influenza vaccination among noninstitutionalized adults aged >= 45 years with chronic obstructive pulmonary disease'
+ 'Prevalence of diagnosed diabetes among adults aged >= 18 years'
+ 'Binge drinking prevalence among women aged 18-44 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged 18-64 years who smoke'
+ 'Activity limitation due to arthritis among adults aged >= 18 years who have doctor-diagnosed arthritis'
+ 'Recent physically unhealthy days among adults aged >= 18 years'
+ 'Influenza vaccination among noninstitutionalized adults aged >= 65 years with asthma'
+ 'Fair or poor self-rated health status among adults aged >= 18 years'
+ 'Proportion of older adults aged 50-64 years who are up to date on a core set of clinical preventive services'
+ 'Influenza vaccination among noninstitutionalized adults aged 18-64 years with diagnosed diabetes'
+ 'Meeting aerobic physical activity guidelines for substantial health benefits among adults aged >= 18 years'
+ 'Influenza vaccination among noninstitutionalized adults aged 18-64 years with asthma'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged 18-64 years with asthma'
+ 'Recent Papanicolaou smear use among women aged 21-44 years'
+ 'Prevalence of activity limitation among adults >= 45 years with diagnosed chronic obstructive pulmonary disease'
+ 'Severe joint pain due to arthritis among adults aged >= 18 years who have doctor-diagnosed arthritis'
+ 'Healthy weight among adults aged >= 18 years'
+ 'Pneumococcal vaccination among noninstitutionalized adults aged >= 65 years with asthma'
+ 'Prevalence of high blood pressure among adults aged >= 18 years with diagnosed diabetes'
+ 'Meeting aerobic physical activity guidelines for substantial health benefits and for muscle-strengthening activity among adults aged >= 18 years'
+ 'Prevalence of sufficient sleep among adults aged >= 18 years'
+ 'Prevalence of activity limitation among adults >= 18 with diagnosed chronic obstructive pulmonary disease'
+ 'Overweight or obesity among women aged 18-44 years'
+ 'Proportion of older adults aged >= 65 years who are up to date on a core set of clinical preventive services'
+ 'Current cigarette smoking among women aged 18-44 years'
+ 'Visits to dentist or dental clinic among adults aged >= 18 years with diagnosed diabetes'
+ 'Papanicolaou smear use among adult women aged 21-65 years']
+
+DataValueUnit		object
+[nan 'Number' '%' 'pack sales per capita' 'cases per 100,000'
+ 'cases per 10,000' '$' 'gallons' 'cases per 1,000,000' 'per 100,000'
+ 'cases per 1,000' 'per 100,000 residents' 'Years']
+
+DataValueType		object
+['Number' 'Average Annual Number' 'Crude Prevalence' 'Age-adjusted Rate'
+ 'Local control of the regulation of alcohol outlet density' 'Crude Rate'
+ 'Age-adjusted Prevalence' 'US Dollars'
+ 'Commercial host (dram shop) liability status for alcohol service'
+ 'Per capita alcohol consumption' 'Average Annual Age-adjusted Rate'
+ 'Average Annual Crude Rate' 'Adjusted by age, sex, race and ethnicity'
+ 'Prevalence' 'Yes/No' 'Percent' 'Mean' 'Median' 'Age-adjusted Mean']
+
+DataValue		object
+['916' '2227' '708' ... '95.0' '98.1' '94.0']
+
+DataValueAlt		float64
+count    8.045780e+05
+mean     1.005325e+03
+std      1.880433e+04
+min      0.000000e+00
+25%      1.610000e+01
+50%      4.000000e+01
+75%      7.600000e+01
+max      2.925456e+06
+Name: DataValueAlt, dtype: float64
+
+DataValueFootnoteSymbol		object
+[nan '-' '~' '&' '**' '^^^' '���' '^^' '****' '��' '~~~~' '*' '~~' '�,�'
+ '�' '###' '##' '***']
+
+DatavalueFootnote		object
+[nan 'No data available'
+ 'Data not shown because of too few respondents or cases'
+ 'Less than 60 respondents, interpret with caution'
+ 'US estimate/number is based on fewer than 50 states and the District of Columbia'
+ 'DC was not rated for this measure because the measure addresses state versus local authority and does not apply to the District of Columbia'
+ 'Estimate is based on the first 3 quarters of 2015 and is not directly comparable to estimates in prior years due to changes in ICD codes'
+ 'State directly controlled the sale of (beer/wine/distilled spirits) at the retail and/or wholesale levels. State prices for (beer/wine/distilled spirits) combined both markups and taxes, so tax rates for this beverage type could not be determined.'
+ 'Sample size of denominator and/or age group for age-standardization is less than 50 or relative standard error is more than 30%'
+ 'Per capita alcohol consumption was calculated using (1) alcohol beverage sales data, either collected directly from states or provided by beverage industry sources (numerator); and (2) population data from the U.S. Census Bureau (denominator).'
+ 'The state registry opted not to present state-specific estimates for this race/ethnicity group'
+ '50 States + DC: US Median'
+ 'A confidence interval for this location is not available because a census was used instead of a sample for their surveys'
+ 'Data cannot be calculated'
+ 'Population served by CWS exceeded the US Census state population estimate; number of persons was reduced by the ratio of the population estimate to the CWS population estimate. Complete data were not available from WFRS; state provided other information.'
+ 'Population served by CWS exceeded the US Census state population estimate; number of persons was reduced by the ratio of the population estimate to the CWS population estimate'
+ 'Median frequency (50th percentile) reported with quartiles (25th & 75th percentiles)'
+ 'Estimate is 0.0% because no cases were reported with this condition'
+ 'US Median is not available because the number of participating states is <30 (excludes states with sample size below 50 or relative standard error above 30%)']
+
+LowConfidenceLimit		float64
+count    682380.000000
+mean         50.264623
+std          89.004848
+min           0.000000
+25%          11.000000
+50%          28.500000
+75%          56.300000
+max        2541.600000
+Name: LowConfidenceLimit, dtype: float64
+
+HighConfidenceLimit		float64
+count    682380.000000
+mean         61.873881
+std         100.104303
+min           0.000000
+25%          16.300000
+50%          41.000000
+75%          71.100000
+max        3530.500000
+Name: HighConfidenceLimit, dtype: float64
+
+StratificationCategory1		object
+['Gender' 'Overall' 'Race/Ethnicity']
+
+Stratification1		object
+['Male' 'Overall' 'Female' 'Hispanic' 'White, non-Hispanic'
+ 'Black, non-Hispanic' 'Asian or Pacific Islander'
+ 'American Indian or Alaska Native' 'Asian, non-Hispanic'
+ 'Multiracial, non-Hispanic' 'Other, non-Hispanic']
+
+Stratification2		float64
+count    0.0
+mean     NaN
+std      NaN
+min      NaN
+25%      NaN
+50%      NaN
+75%      NaN
+max      NaN
+Name: Stratification2, dtype: float64
+
+GeoLocation		object
+['POINT (-92.27449074299966 34.74865012400045)'
+ 'POINT (-106.13361092099967 38.843840757000464)'
+ 'POINT (-77.036871 38.907192)'
+ 'POINT (-83.62758034599966 32.83968109300048)'
+ 'POINT (-84.71439026999968 44.6613195430005)'
+ 'POINT (-109.42442064499971 47.06652897200047)'
+ 'POINT (-120.15503132599969 44.56744942400047)'
+ 'POINT (-66.590149 18.220833)'
+ 'POINT (-89.81637074199966 44.39319117400049)'
+ 'POINT (-86.63186076199969 32.84057112200048)'
+ 'POINT (-114.3637300419997 43.682630005000476)'
+ 'POINT (-88.99771017799969 40.48501028300046)'
+ 'POINT (-98.20078122699965 38.34774030000045)'
+ 'POINT (-92.44568007099969 31.31266064400046)'
+ 'POINT (-72.08269067499964 42.27687047000046)'
+ 'POINT (-76.60926011099963 39.29058096400047)'
+ 'POINT (-94.79420050299967 46.35564873600049)'
+ 'POINT (-89.53803082499968 32.745510099000455)'
+ 'POINT (-79.15925046299964 35.466220975000454)'
+ 'POINT (-106.24058098499967 34.52088095200048)'
+ 'POINT (-99.42677020599967 31.827240407000488)'
+ 'POINT (-75.54397042699964 42.82700103200045)'
+ 'POINT (-86.14996019399968 39.766910452000445)'
+ 'POINT (-117.07184056399967 39.493240390000494)'
+ 'POINT (-81.04537120699968 33.998821303000454)'
+ 'POINT (-78.45789046299967 37.54268067400045)'
+ 'POINT (-93.81649055599968 42.46940091300047)'
+ 'POINT (-111.58713063499971 39.360700171000474)'
+ 'POINT (-108.10983035299967 43.23554134300048)'
+ 'POINT (-147.72205903599973 64.84507995700051)'
+ 'POINT (-120.99999953799971 37.63864012300047)'
+ 'POINT (-82.40426005599966 40.06021014100048)' nan
+ 'POINT (-157.85774940299973 21.304850435000446)'
+ 'POINT (-120.47001078999972 47.52227862900048)'
+ 'POINT (-100.3735306369997 44.353130053000484)'
+ 'POINT (-75.57774116799965 39.008830667000495)'
+ 'POINT (-84.77497104799966 37.645970271000465)'
+ 'POINT (-100.11842104899966 47.47531977900047)'
+ 'POINT (-71.52247031399963 41.70828019300046)'
+ 'POINT (-64.896335 18.335765)'
+ 'POINT (-72.51764079099962 43.62538123900049)'
+ 'POINT (-111.76381127699972 34.865970280000454)'
+ 'POINT (-81.92896053899966 28.932040377000476)'
+ 'POINT (-99.36572062299967 41.6410409880005)'
+ 'POINT (-97.52107021399968 35.47203135600046)'
+ 'POINT (144.793731 13.444304)'
+ 'POINT (-74.27369128799967 40.13057004800049)'
+ 'POINT (-92.56630005299968 38.635790776000476)'
+ 'POINT (-68.98503133599962 45.254228894000505)'
+ 'POINT (-72.64984095199964 41.56266102000046)'
+ 'POINT (-71.50036091999965 43.65595011300047)'
+ 'POINT (-85.77449091399967 35.68094058000048)'
+ 'POINT (-77.86070029399963 40.79373015200048)'
+ 'POINT (-80.71264013499967 38.66551020200046)']
+
+LocationID		int64
+count    1.185676e+06
+mean     3.078907e+01
+std      1.750972e+01
+min      1.000000e+00
+25%      1.700000e+01
+50%      3.000000e+01
+75%      4.500000e+01
+max      7.800000e+01
+Name: LocationID, dtype: float64
+
+TopicID		object
+['AST' 'CAN' 'CKD' 'COPD' 'CVD' 'DIA' 'DIS' 'RPH' 'TOB' 'ALC' 'ART' 'NPAW'
+ 'MTH' 'OLD' 'ORH' 'OVC' 'IMM']
+
+QuestionID		object
+['AST3_1' 'AST4_1' 'CAN10_2' 'CAN11_2' 'CAN4_2' 'CAN5_2' 'CAN6_2' 'CAN7_2'
+ 'CAN8_2' 'CAN9_1' 'CAN9_2' 'CKD1_0' 'COPD5_1' 'COPD5_2' 'COPD5_3'
+ 'COPD5_4' 'CVD1_4' 'CVD2_0' 'CVD3_1' 'CVD8_0' 'DIA1_1' 'DIA1_2' 'DIA4_0'
+ 'DIA9_0' 'DIS1_0' 'RPH3_0' 'TOB10_0' 'ALC6_0' 'ALC1_2' 'ALC1_1' 'ALC10_0'
+ 'ALC2_1' 'AST2_1' 'ART5_0' 'ALC8_0_1' 'ALC8_0_2' 'ALC8_0_3' 'ALC9_0'
+ 'ALC7_0' 'CAN10_1' 'CAN11_1' 'CAN4_1' 'CAN5_1' 'CAN6_1' 'CAN7_1' 'CAN8_1'
+ 'CKD2_1' 'COPD1_1' 'CKD2_2' 'COPD1_2' 'CVD1_1' 'CVD1_2' 'CVD1_3'
+ 'COPD6_1' 'COPD6_2' 'CVD1_5' 'DIA3_1' 'CVD3_2' 'DIA3_2' 'RPH2_0' 'TOB7_0'
+ 'TOB1_4' 'TOB1_1' 'NPAW12_1' 'NPAW18_0' 'NPAW12_2' 'NPAW11_4' 'NPAW13_1'
+ 'NPAW15_0' 'NPAW16_0' 'NPAW17_0' 'NPAW13_2' 'NPAW13_4' 'NPAW14_0'
+ 'MTH3_0' 'NPAW13_3' 'NPAW19_0' 'NPAW21_0' 'NPAW20_0' 'NPAW5_1' 'NPAW1_2'
+ 'OLD1_0' 'NPAW22_0' 'NPAW2_2' 'NPAW4_1' 'NPAW8_0' 'NPAW3_2' 'NPAW6_0'
+ 'NPAW7_1' 'ORH3_0' 'NPAW9_1' 'NPAW9_2' 'NPAW7_2' 'OVC4_1' 'OVC5_0'
+ 'OVC3_1' 'ORH2_2' 'OVC4_2' 'OLD4_0' 'OVC2_1' 'ORH1_2' 'OVC2_2' 'OVC1_3'
+ 'OVC3_2' 'ORH2_1' 'ORH5_0' 'OVC9_0' 'TOB4_0' 'TOB2_1' 'TOB5_0' 'TOB6_0'
+ 'TOB9_0' 'TOB8_0' 'AST1_2' 'ALC5_1' 'DIA2_2' 'TOB1_2' 'ORH4_1' 'ART1_1'
+ 'ORH4_3' 'AST1_1' 'CAN1_0' 'CKD3_0' 'CVD4_0' 'DIA5_0' 'ART1_3' 'TOB3_0'
+ 'DIA7_0' 'MTH1_0' 'ALC5_2' 'ART1_2' 'ALC4_0' 'ART1_4' 'NPAW2_1' 'DIA13_1'
+ 'OVC1_2' 'TOB2_2' 'CVD10_2' 'CVD9_1' 'CVD6_2' 'OVC7_2' 'OVC6_2' 'OVC1_1'
+ 'MTH2_0' 'NPAW1_1' 'ALC3_0' 'CVD5_0' 'CVD7_0' 'ORH1_1' 'ART3_0' 'DIA10_0'
+ 'CAN3_0' 'COPD2_0' 'COPD2_0_1' 'ART2_3' 'NPAW5_2' 'NPAW4_2' 'COPD3_0_1'
+ 'IMM1_0' 'TOB11_2' 'COPD3_0' 'DIA11_3' 'DIA6_0' 'DIA12_2' 'NPAW10_0'
+ 'CVD10_1' 'CVD6_1' 'DIA13_2' 'CVD9_2' 'ALC2_2' 'NPAW11_3' 'COPD8_0'
+ 'ORH4_2' 'RPH1_0' 'ART4_0' 'DIA11_1' 'COPD7_0' 'DIA2_1' 'ALC2_3'
+ 'TOB11_1' 'ART2_1' 'OVC7_1' 'AST5_2' 'OVC6_1' 'OLD3_2' 'DIA12_1'
+ 'NPAW11_1' 'AST5_1' 'AST6_1' 'CAN2_2' 'COPD4_0_1' 'ART2_2' 'NPAW3_1'
+ 'AST6_2' 'DIA11_2' 'NPAW11_2' 'OVC8_0' 'COPD4_0' 'NPAW2_3' 'OLD3_1'
+ 'TOB1_3' 'DIA8_0' 'CAN2_1']
+
+DataValueTypeID		object
+['NMBR' 'AVGANNNMBR' 'CRDPREV' 'AGEADJRATE' 'LCLCNTRLALC' 'CRDRATE'
+ 'AGEADJPREV' 'USD' 'COMMHSTLIAB' 'PERCAPALC' 'AVGANNAGEADJRATE'
+ 'AVGANNCRDRATE' 'AGESEXRACEADJRATE' 'PREV' 'YESNO' 'PRCT' 'MEAN' 'MEDIAN'
+ 'AGEADJMEAN']
+
+StratificationCategoryID1		object
+['GENDER' 'OVERALL' 'RACE']
+
+StratificationID1		object
+['GENM' 'OVR' 'GENF' 'HIS' 'WHT' 'BLK' 'APIO' 'API' 'AIAN' 'ASN' 'MRC'
+ 'OTH' 'AIAO']
+
